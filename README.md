@@ -1,2 +1,2 @@
 # HtmlBasic
-HTML&amp;CSS 연습문제
+HTML&amp;CSS 연습
