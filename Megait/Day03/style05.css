@@ -1,0 +1,38 @@
+.wrap{
+    font-family: 'Edu NSW ACT Foundation', cursive; /*Gulim*/
+    font-size: 2em; /*em*/
+    height: 800px;
+    width: 800px;
+    background-color: aquamarine;
+}
+.div1 {
+    margin: 10px;
+    padding: 50px;
+    height: 200px;
+    width: 200px;
+    background-color: green;
+}
+.div2 {
+    box-sizing: border-box;/*box-sizing : border-box는 크기 조정을 하지 않는다*/
+    margin: 50px;
+    padding: 50px 100px 150px 200px; 
+    height: 200px;
+    width: 200px;
+    background-color: firebrick;
+}
+.div3 {
+    margin: 20px 20px 20px 20px;
+    padding:30px 100px;
+    height: 200px;
+    width: 200px;
+    background-color: deeppink;
+}
+footer{
+    background-color: cornflowerblue;
+}
+/*semantic tag는 block속성*/
+nav{
+    background-color: blueviolet;
+    font-size: 20px;
+    color: white;
+}

@@ -1,0 +1,25 @@
+body {
+    font-family: 'Edu NSW ACT Foundation', cursive; 
+    font-size: 40px;
+}
+body > p {background-color: chocolate;}
+body > div {background-color: goldenrod;}
+.div01{width: 60px; height: 30px; background-color: pink;}
+.div02{width: 60px; height: 30px; background-color: deepskyblue;}
+.span01{background-color: pink;}
+.span02{background-color: deepskyblue;}
+.span03 {
+    background-color: rgb(145, 145, 204);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    height: 150px; /*inline 속성은 height, width 지정이 무의미*/
+}
+.span04 {
+    display: block;
+    background-color: lavender;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    height: 150px; 
+}
+.parents {
+    display: flex;
+    background-color: white;
+}

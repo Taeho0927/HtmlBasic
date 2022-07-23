@@ -1,0 +1,40 @@
+.box1{
+    width: 200px;
+    height: 100px;
+    background-color: rebeccapurple;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+.box2{
+    width: 200px;
+    height: 100px;
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    padding: 10px 0px 0px 30px;
+}
+.box3{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}
+.box4{
+    width: 100px;
+    height: 100px;
+    background-color: crimson;
+}
+.flex-row {
+    display: flex;
+}
+.box-align {
+    /*앞, 뒤, 모든 요소들 사이에 여유공간을 두고 배치*/
+    justify-content: space-around;
+    /*justify-content: space-evenly;*//*모든 요소간의 거리를 동일*/
+    /*justify-content: space-between;*//*앞 뒤 요소는 고려 x 요소간의 거리만*/
+}
+.box-align-center{
+    justify-content: center;/*가운데부터 배치*/
+}
+.box-align-end{
+    justify-content: flex-end;/*뒤쪽부터*/
+}
