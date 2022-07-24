@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@500&display=swap" rel="stylesheet">
+        <title>Bootstrap Components</title>
+        <link rel="stylesheet" href="./bootstrap/bootstrap-5.2.0-dist/css/bootstrap.min.css">
+    </head>
+    <body>
+        <div class="accordion" id="accordion-main">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="head-1">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#detail-1" area-exanded="true" aria-controls="detail-1">
+                        Accordion 1st region
+                    </button>
+                </h2>
+                <div class="accordion-collapse collapse show" id="detail-1" aria-labelledby="head-1" data-bs-parent="#accordion-main">
+                    <div class="accordion-body">
+                        First Accordion Body
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item"></div>
+            <div class="accordion-item"></div>
+        </div>
+    </body>
+
+    <script src="https://ajax.gooleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="./bootstrap/bootstrap-5.2.0-dist/js/bootstrap.js"></script>
+</html>
